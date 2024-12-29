@@ -1,0 +1,90 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centrar el contenedor */
+    background: #fff; /* Fondo blanco para el contenedor */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más fuerte */
+}
+
+h1, h2 {
+    color: #b92b27; /* Rojo para los encabezados */
+    font-weight: 700; /* Negrita */
+    text-align: center; /* Centrado de los encabezados */
+}
+
+form {
+    margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+label {
+    display: block; /* Hacer que las etiquetas ocupen toda la línea */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+    color: #b92b27; /* Rojo en las etiquetas */
+    font-weight: 600; /* Negrita para las etiquetas */
+}
+
+input[type="text"],
+input[type="url"] {
+    width: 100%; /* Ancho completo */
+    padding: 12px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espacio debajo de los campos */
+    border: 1px solid #dc3545; /* Borde rojo */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #f8d7da; /* Fondo suave rojo */
+    color: #721c24; /* Color de texto rojo oscuro */
+}
+
+input[type="text"]:focus,
+input[type="url"]:focus {
+    border-color: #b92b27; /* Borde rojo al hacer foco */
+    box-shadow: 0 0 5px rgba(185, 43, 39, 0.6); /* Sombra roja al hacer foco */
+}
+
+button {
+    background-color: #dc3545; /* Color de fondo rojo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 18px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el mouse */
+}
+
+.song-list {
+    margin-top: 20px; /* Espacio encima de la lista de canciones */
+}
+
+.song-item {
+    margin-bottom: 10px; /* Espacio debajo de cada canción */
+    padding: 12px; /* Espaciado interno */
+    border: 1px solid #dc3545; /* Borde rojo */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f8d7da; /* Fondo suave rojo para las canciones */
+}
+
+.buttons {
+    margin-top: 10px; /* Espacio encima de los botones */
+}
+
+.buttons button {
+    margin-right: 5px; /* Espacio entre los botones */
+}
+
+.vote-count {
+    font-weight: bold; /* Hacer que el conteo de votos sea más destacado */
+    color: #b92b27; /* Color rojo para el conteo de votos */
+}
+
